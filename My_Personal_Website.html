@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="./My Personal Website_files/all.min.css">
+
+  <style>
+    :root {
+      --bg-color: #222831;
+      --text-color: #eeeeee;
+      --header-bg: #393e46;
+      --link-color: #00adb5;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: var(--header-bg);
+      color: var(--link-color);
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
+
+    header img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      border: 3px solid var(--link-color);
+    }
+
+    header h1 {
+      color: var(--text-color);
+      margin-top: 120px;
+    }
+
+    nav {
+      background-color: #0b0c10;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    nav a {
+      color: var(--text-color);
+      padding: 14px 20px;
+      text-decoration: none;
+      transition: color 0.3s, transform 0.3s;
+      margin: 5px;
+    }
+
+    nav a:hover {
+      color: var(--link-color);
+      transform: scale(1.1);
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      background-color: #393e46;
+      color: var(--text-color);
+      padding: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s, transform 0.3s, color 0.3s;
+      gap: 5px;
+      flex: 1 1 120px;
+      max-width: 150px;
+    }
+
+    .social-links a:hover {
+      transform: scale(1.05);
+      color: #ffffff;
+    }
+
+    .whatsapp:hover { background-color: #25d366; }
+    .facebook:hover { background-color: #3b5998; }
+    .instagram:hover { background-color: #e4405f; }
+    .tiktok:hover { background-color: #000; }
+    .snapchat:hover { background-color: #fffc00; color: #000; }
+    
+    .telegram:hover {
+      background-color: #0088cc;
+    }
+    
+    footer {
+      background-color: var(--header-bg);
+      color: var(--link-color);
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      width: 100%;
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .about {
+      background-color: #0b0c10;
+      color: var(--text-color);
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      transition: transform 0.3s;
+    }
+
+    .about:hover {
+      transform: scale(1.02);
+    }
+
+    @media (max-width: 600px) {
+      header img {
+        width: 60px;
+        height: 60px;
+      }
+
+      header h1 {
+        font-size: 1.5em;
+      }
+
+      nav a {
+        padding: 10px;
+      }
+
+      .social-links a {
+        flex: 1 1 80px;
+      }
+
+      .about {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./My Personal Website_files/443822740_472353808489561_4361863950371365008_n.jpg" alt="My Photo">
+    <h1>My Personal Website</h1>
+  </header>
+  <nav>
+    <a href="https://abdoahmed6.github.io/My-Personal-Website../?fbclid=PAZXh0bgNhZW0CMTEAAaaDpH4uaLqxj2aDDwkYc1B-T2rG8jcGsFTuu6J9e9_v-EhcOI1BfdfxSEM_aem_OV60-l2rc_hXw5RI6wDZ9Q#">Home</a>
+    <a href="https://api.whatsapp.com/send/?phone=2001002355696&amp;text&amp;type=phone_number&amp;app_absent=0">Contact Me</a>
+  </nav>
+  <div class="container">
+    <h2>Connect with me through the following accounts:</h2>
+    <div class="social-links">
+      <a class="whatsapp" href="https://api.whatsapp.com/send/?phone=2001002355696&amp;text&amp;type=phone_number&amp;app_absent=0">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a class="facebook" href="https://www.facebook.com/boda2011aa?mibextid=ZbWKwL">
+        <i class="fab fa-facebook"></i> Facebook
+      </a>
+      <a class="instagram" href="https://www.instagram.com/abdo__ahmed2011/profilecard/?igsh=dm1qOWJmendodWR4">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a class="tiktok" href="https://www.tiktok.com/@abdoahmed2177?_t=8qrqSePKz8q&amp;_r=1">
+        <i class="fab fa-tiktok"></i> TikTok
+      </a>
+      <a class="snapchat" href="https://www.snapchat.com/add/abdoahmed8596?share_id=bjYcP0IsHNc&amp;locale=en-US">
+        <i class="fab fa-snapchat"></i> Snapchat
+      </a>
+      <a class="telegram" href="https://t.me/Boda_balck">
+        <i class="fab fa-telegram"></i> Telegram
+      </a>
+    </div>
+    <div class="about">
+      <h2>عني</h2>
+      <p>أنا شغوف بالأمن السيبراني وأتعلم حاليًا أساسيات هذا المجال. شغفي يكمن في حماية الأنظمة والبيانات من التهديدات السيبرانية، وأسعى لتطوير مهاراتي لأساهم في تأمين البيئات الرقمية.</p>
+    </div>
+  </div>
+  <footer>
+    <p>All rights reserved © 2024</p>
+  </footer>
+</body>
+</html>
